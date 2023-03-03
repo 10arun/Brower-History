@@ -1,0 +1,58 @@
+.app-card-container {
+  display: flex;
+  list-style: none;
+}
+.app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.app-container > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.app-logo {
+  height: 25px;
+  width: 25px;
+}
+.time {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 15px;
+  font-weight: 400;
+  margin-right: 25px;
+}
+.title {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 15px;
+  font-weight: 500;
+  margin: 0 10px 0 10px;
+}
+.domain {
+  font-family: 'Roboto';
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 500;
+}
+/* .button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+} */
+.button {
+  align-items: flex-end;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.delete-img {
+  align-self: flex-end;
+}
